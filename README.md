@@ -6,6 +6,7 @@ Heart Disease Prediction: The bot utilizes machine learning algorithms to analyz
 High Accuracy: With a prediction accuracy of 90%, the bot provides reliable assessments to aid medical professionals in decision-making.
 Time Efficiency: By automating the prediction process, the bot reduces the workload of doctors and minimizes patient waiting times.
 User-Friendly Interface: The bot is designed with a simple and intuitive interface, allowing healthcare professionals to easily input patient data and obtain predictions promptly.
+
 **How It Works**
 Data Collection: Relevant patient data such as age, sex, cholesterol levels, blood pressure, and other medical indicators are collected.
 Data Preprocessing: The collected data is preprocessed to remove noise, handle missing values, and normalize features.
