@@ -1,6 +1,7 @@
 ![Screenshot 2024-03-28 015155](https://github.com/sneharawat1404/HeartBot-with-query-resolving-feature/assets/142423437/8250e8fb-ca0c-416c-9b50-a7135ac9f7e7)
 
 
+![Screenshot 2024-03-28 015216](https://github.com/sneharawat1404/HeartBot-with-query-resolving-feature/assets/142423437/0637566d-de19-4a32-82c6-1604d42bdc1f)
 
 **Heart Disease Prediction Bot**
 
