@@ -1,3 +1,7 @@
+![Screenshot 2024-03-28 015155](https://github.com/sneharawat1404/HeartBot-with-query-resolving-feature/assets/142423437/8250e8fb-ca0c-416c-9b50-a7135ac9f7e7)
+
+
+
 **Heart Disease Prediction Bot**
 
 This project aims to develop a Heart Disease Prediction Bot using machine learning techniques. The bot is designed to predict the likelihood of heart disease in patients with an accuracy of 90%, thus assisting healthcare professionals in early diagnosis and intervention.
