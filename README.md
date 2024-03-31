@@ -1,4 +1,4 @@
-Heartify is a platform designed to assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking. 
+HEARTIFY is a platform designed to assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking. 
 The voice-to-text feature integrated into Heapify's API is particularly beneficial for visually impaired individuals as it allows them to interact with the platform using spoken commands instead of traditional text input.  
 By providing an alternative input method, Heapify ensures accessibility and inclusivity for users with visual impairments, empowering them to independently access and utilize the platform's functionalities.The tech stack includes Python for machine learning model training, HTML/CSS/JS for frontend development, and voice-to-text APIs for accessibility features.
 
