@@ -1,14 +1,14 @@
 #  Heartify(CARDIOsetu) 
 
-Heartify is a revolutionary platform designed to empower visually and verbally impaired individuals with tools for heart health analysis and doctor appointment booking. 🩺
+Heartify(CARDIOsetu) is a revolutionary platform designed to empower visually and verbally impaired individuals with tools for heart health analysis and doctor appointment booking. 🩺
 
 ## 🗣️ Voice-to-Text Accessibility
 
-One of Heartify's standout features is its seamless integration of voice-to-text functionality. This feature allows users to interact with the platform using spoken commands, making it particularly beneficial for visually impaired individuals. By simply speaking into the microphone, users can navigate the platform, input data, and schedule appointments with ease. 🎤
+One of Heartify(CARDIOsetu)'s standout features is its seamless integration of voice-to-text functionality. This feature allows users to interact with the platform using spoken commands, making it particularly beneficial for visually impaired individuals. By simply speaking into the microphone, users can navigate the platform, input data, and schedule appointments with ease. 🎤
 
 ## 🔍 Analyze and Book Appointments
 
-Heartify offers comprehensive heart health analysis tools, empowering users to monitor and manage their cardiovascular well-being. Additionally, users can conveniently book appointments with healthcare professionals directly through the platform. With Heartify, staying on top of your heart health has never been easier. 
+Heartify offers comprehensive heart health analysis tools, empowering users to monitor and manage their cardiovascular well-being. Additionally, users can conveniently book appointments with healthcare professionals directly through the platform. With Heartify(CARDIOsetu), staying on top of your heart health has never been easier. 
 
 ## 🌐 Tech Stack
 
