@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="report.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+    <script>
+        function startVoiceRecognitionAge() {
+             const ageInput = document.getElementById("ageInput");
+              const voiceInputBtnAge = document.getElementById("voiceInputBtnAge");
+
+    // Prompt user to speak their age
+                speakText("Please speak your age.");
+
+    // Check if SpeechRecognition is available
+              if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+                  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                 const recognition = new SpeechRecognition();
+
+        // Start recognition
+                 recognition.start();
+
+        // Event listener for speech recognition result
+                  recognition.onresult = (event) => {
+                     const speechResult = event.results[0][0].transcript;
+                     const age = parseInt(speechResult); // Convert speech result to integer
+                     if (!isNaN(age)) { // Check if conversion was successful
+                          ageInput.value = age; // Populate age input with speech result
+                // Notify user that their age is recorded
+                         speakText("Okay, your age is recorded.");
+                }       
+                     else {
+                         speakText("Sorry, I couldn't understand your age. Please try again.");
+               }
+        };
+
+        // Error handling
+        recognition.onerror = (event) => {
+            console.error('Speech recognition error occurred: ' + event.error);
+        };
+    } else {
+        alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+    }
+}
+
+function speakText(text) {
+    const synth = window.speechSynthesis;
+    const utterance = new SpeechSynthesisUtterance(text);
+    synth.speak(utterance);
+}
+
+function startVoiceRecognitionCp() {
+        const cpInput = document.getElementById("cpInput");
+
+        // Prompt user to speak their cp
+        speakText("Please speak your cp.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const cp = parseInt(speechResult); // Convert speech result to integer
+                if (!isNaN(cp)) { // Check if conversion was successful
+                    cpInput.value = cp; // Populate cp input with speech result
+                    // Notify user that their cp is recorded
+                    speakText("Okay, your cp is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your cp. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    // Define similar functions for other input fields
+    // Example for 'trestbps' input field
+    function startVoiceRecognitionTrestbps() {
+        const trestbpsInput = document.getElementById("trestbpsInput");
+
+        // Prompt user to speak their trestbps
+        speakText("Please speak your trestbps.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const trestbps = parseInt(speechResult); // Convert speech result to integer
+                if (!isNaN(trestbps)) { // Check if conversion was successful
+                    trestbpsInput.value = trestbps; // Populate trestbps input with speech result
+                    // Notify user that their trestbps is recorded
+                    speakText("Okay, your trestbps is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your trestbps. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    // Define similar functions for other input fields (chol, thalach, oldpeak, ca)
+    // Remember to change the IDs and prompts accordingly
+
+    function speakText(text) {
+        const synth = window.speechSynthesis;
+        const utterance = new SpeechSynthesisUtterance(text);
+        synth.speak(utterance);
+    }
+    
+    
+    function startVoiceRecognitionChol() {
+        const cholInput = document.getElementById("cholInput");
+
+        // Prompt user to speak their chol
+        speakText("Please speak your Chol.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const chol = parseInt(speechResult); // Convert speech result to integer
+                if (!isNaN(chol)) { // Check if conversion was successful
+                    cholInput.value = chol; // Populate chol input with speech result
+                    // Notify user that their chol is recorded
+                    speakText("Okay, your chol is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your chol. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    // Define similar functions for other input fields (thalach, oldpeak, ca)
+    // Remember to change the IDs and prompts accordingly
+
+    // Function for Thalach input field
+    function startVoiceRecognitionThalach() {
+        const thalachInput = document.getElementById("thalachInput");
+
+        // Prompt user to speak their thalach
+        speakText("Please speak your Thalach.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const thalach = parseInt(speechResult); // Convert speech result to integer
+                if (!isNaN(thalach)) { // Check if conversion was successful
+                    thalachInput.value = thalach; // Populate thalach input with speech result
+                    // Notify user that their thalach is recorded
+                    speakText("Okay, your thalach is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your thalach. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    // Define similar functions for other input fields (oldpeak, ca)
+    // Remember to change the IDs and prompts accordingly
+
+    function speakText(text) {
+        const synth = window.speechSynthesis;
+        const utterance = new SpeechSynthesisUtterance(text);
+        synth.speak(utterance);
+    }
+
+    function startVoiceRecognitionOldpeak() {
+        const oldpeakInput = document.getElementById("oldpeakInput");
+
+        // Prompt user to speak their Oldpeak
+        speakText("Please speak your Oldpeak.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const oldpeak = parseFloat(speechResult); // Convert speech result to float
+                if (!isNaN(oldpeak)) { // Check if conversion was successful
+                    oldpeakInput.value = oldpeak; // Populate oldpeak input with speech result
+                    // Notify user that their oldpeak is recorded
+                    speakText("Okay, your Oldpeak is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your Oldpeak. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    // Function for Ca input field
+    function startVoiceRecognitionCa() {
+        const caInput = document.getElementById("caInput");
+
+        // Prompt user to speak their Ca
+        speakText("Please speak your Ca.");
+
+        // Check if SpeechRecognition is available
+        if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+
+            // Start recognition
+            recognition.start();
+
+            // Event listener for speech recognition result
+            recognition.onresult = (event) => {
+                const speechResult = event.results[0][0].transcript;
+                const ca = parseInt(speechResult); // Convert speech result to integer
+                if (!isNaN(ca)) { // Check if conversion was successful
+                    caInput.value = ca; // Populate ca input with speech result
+                    // Notify user that their ca is recorded
+                    speakText("Okay, your Ca is recorded.");
+                } else {
+                    speakText("Sorry, I couldn't understand your Ca. Please try again.");
+                }
+            };
+
+            // Error handling
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error occurred: ' + event.error);
+            };
+        } else {
+            alert("Speech recognition is not supported in your browser. Please use a compatible browser.");
+        }
+    }
+
+    function speakText(text) {
+        const synth = window.speechSynthesis;
+        const utterance = new SpeechSynthesisUtterance(text);
+        synth.speak(utterance);
+    }
+
+    </script>
+   <h1>Understanding Your Heart Health: Prediction Report by HeartDBot</h1>
+   <h2>Please enter the following information:</h2>
+   <form action="result" method="post" class="login">
+    {% csrf_token %}
+     <div class="form-inner">
+    
+            <!-- Age Input Field -->
+            <div class="field" style="position: relative;">
+                <input type="number" id="ageInput" placeholder="Age" required>
+                <button id="voiceInputBtnAge" onclick="startVoiceRecognitionAge()">Speak</button>
+            </div>
+
+            <!-- CP Input Field -->
+             <div class="field" style="position: relative;">
+                  <input type="number" id="cpInput" placeholder="CP" required>
+                 <button id="voiceInputBtnCp" onclick="startVoiceRecognitionCp()">Speak</button>
+             </div>
+
+         <!-- Trestbps Input Field -->
+              <div class="field" style="position: relative;">
+                 <input type="number" id="trestbpsInput" placeholder="Trestbps" required>
+                 <button id="voiceInputBtnTrestbps" onclick="startVoiceRecognitionTrestbps()">Speak</button>
+            </div>
+
+        <!-- Chol Input Field -->
+            <div class="field" style="position: relative;">
+                 <input type="number" id="cholInput" placeholder="Chol" required>
+                 <button id="voiceInputBtnChol" onclick="startVoiceRecognitionChol()">Speak</button>
+            </div>
+
+             <div class="field" style="position: relative;">
+                 <input type="number" id="thalachInput" placeholder="Thalach" required>
+                 <button id="voiceInputBtnThalach" onclick="startVoiceRecognitionThalach()">Speak</button>
+            </div>
+
+            <div class="field" style="position: relative;">
+                 <input type="number" id="oldpeakInput" placeholder="Oldpeak" required>
+                 <button id="voiceInputBtnOldpeak" onclick="startVoiceRecognitionOldpeak()">Speak</button>
+            </div>
+
+        <!-- Ca Input Field -->
+            <div class="field" style="position: relative;">
+                 <input type="number" id="caInput" placeholder="Ca" required>
+                 <button id="voiceInputBtnCa" onclick="startVoiceRecognitionCa()">Speak</button>
+             </div>
+             <input type="submit">
+        </form>
+             Result:{{result}}
+        </div>
+          <script src="info.js"></script>
+</body>
+</html>
