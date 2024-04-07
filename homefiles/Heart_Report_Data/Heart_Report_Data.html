@@ -303,55 +303,59 @@ function startVoiceRecognitionCp() {
     }
 
     </script>
-   <h1>Understanding Your Heart Health: Prediction Report by HeartDBot</h1>
-   <h2>Please enter the following information:</h2>
-   <form action="result" method="post" class="login">
-    {% csrf_token %}
-     <div class="form-inner">
-    
+   <h1 style="color:blue">Get Your Heart Heatlh Report </h1>
+        <div align ="centre" class= "main">
+         <p><h3 style="color: grey">Please enter the following information:</h3></p>
+         <div class="form-inner"> 
+
+            <form  action="result.html" class="submit"> 
+            <!-- {% csrf_token %} -->
             <!-- Age Input Field -->
-            <div class="field" style="position: relative;">
-                <input type="number" id="ageInput" placeholder="Age" required>
-                <button id="voiceInputBtnAge" onclick="startVoiceRecognitionAge()">Speak</button>
-            </div>
-
-            <!-- CP Input Field -->
-             <div class="field" style="position: relative;">
-                  <input type="number" id="cpInput" placeholder="CP" required>
-                 <button id="voiceInputBtnCp" onclick="startVoiceRecognitionCp()">Speak</button>
-             </div>
-
-         <!-- Trestbps Input Field -->
-              <div class="field" style="position: relative;">
-                 <input type="number" id="trestbpsInput" placeholder="Trestbps" required>
-                 <button id="voiceInputBtnTrestbps" onclick="startVoiceRecognitionTrestbps()">Speak</button>
-            </div>
-
-        <!-- Chol Input Field -->
-            <div class="field" style="position: relative;">
-                 <input type="number" id="cholInput" placeholder="Chol" required>
-                 <button id="voiceInputBtnChol" onclick="startVoiceRecognitionChol()">Speak</button>
-            </div>
-
-             <div class="field" style="position: relative;">
-                 <input type="number" id="thalachInput" placeholder="Thalach" required>
-                 <button id="voiceInputBtnThalach" onclick="startVoiceRecognitionThalach()">Speak</button>
-            </div>
-
-            <div class="field" style="position: relative;">
-                 <input type="number" id="oldpeakInput" placeholder="Oldpeak" required>
-                 <button id="voiceInputBtnOldpeak" onclick="startVoiceRecognitionOldpeak()">Speak</button>
-            </div>
-
-        <!-- Ca Input Field -->
-            <div class="field" style="position: relative;">
-                 <input type="number" id="caInput" placeholder="Ca" required>
-                 <button id="voiceInputBtnCa" onclick="startVoiceRecognitionCa()">Speak</button>
-             </div>
-             <input type="submit">
+    
+                <!-- Age Input Field -->
+                <div class="field" style="position: relative;">
+                    <input type="number" id="ageInput" placeholder="Age" required>
+                    <button id="voiceInputBtnAge" onclick="startVoiceRecognitionAge()">Speak</button>
+                </div>
+    
+                <!-- CP Input Field -->
+                 <div class="field" style="position: relative;">
+                      <input type="number" id="cpInput" placeholder="CP" required>
+                     <button id="voiceInputBtnCp" onclick="startVoiceRecognitionCp()">Speak</button>
+                 </div>
+    
+             <!-- Trestbps Input Field -->
+                  <div class="field" style="position: relative;">
+                     <input type="number" id="trestbpsInput" placeholder="Trestbps" required>
+                     <button id="voiceInputBtnTrestbps" onclick="startVoiceRecognitionTrestbps()">Speak</button>
+                </div>
+    
+            <!-- Chol Input Field -->
+                <div class="field" style="position: relative;">
+                     <input type="number" id="cholInput" placeholder="Chol" required>
+                     <button id="voiceInputBtnChol" onclick="startVoiceRecognitionChol()">Speak</button>
+                </div>
+    
+                 <div class="field" style="position: relative;">
+                     <input type="number" id="thalachInput" placeholder="Thalach" required>
+                     <button id="voiceInputBtnThalach" onclick="startVoiceRecognitionThalach()">Speak</button>
+                </div>
+    
+                <div class="field" style="position: relative;">
+                     <input type="number" id="oldpeakInput" placeholder="Oldpeak" required>
+                     <button id="voiceInputBtnOldpeak" onclick="startVoiceRecognitionOldpeak()">Speak</button>
+                </div>
+    
+            <!-- Ca Input Field -->
+                <div class="field" style="position: relative;">
+                     <input type="number" id="caInput" placeholder="Ca" required>
+                     <button id="voiceInputBtnCa" onclick="startVoiceRecognitionCa()">Speak</button>
+                 </div>
+    
+            <!-- Submit Button -->
+            <button type="submit"> Submit
+                <!-- result:{{result2}} -->
+            </button>
         </form>
-             Result:{{result}}
-        </div>
-          <script src="info.js"></script>
-</body>
-</html>
+    </body>
+    </html>
