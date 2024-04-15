@@ -1,4 +1,4 @@
-# Heartify(CARDIOsetu) 💖
+# CARDIOsetu 💖
 # Demo Link of Website: https://youtu.be/UfdAC_hTcU4?feature=shared
 Welcome to Heartify(CARDIOsetu) - a revolutionary platform designed to empower visually and verbally impaired individuals with tools for heart health analysis and doctor appointment booking. 🩺
 ![Screenshot 2024-04-08 004048](https://github.com/sneharawat1404/HeartBot-with-query-resolving-feature/assets/142423437/37746ed7-9d37-450f-92fe-6068e204399d)
