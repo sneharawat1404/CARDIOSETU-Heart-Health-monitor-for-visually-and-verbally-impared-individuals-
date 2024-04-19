@@ -14,11 +14,21 @@ CARDIOsetu is a web application designed to monitor individual heart health and 
 
 ## Features
 
-- **Heart Health Monitoring**: Track and monitor heart health data including heart rate, blood pressure, and other relevant metrics.
-- **Voice-to-Text Input**: Voice input feature for accessibility, allowing visually and verbally impaired individuals to use the application seamlessly.
-- **Doctor Appointment Booking**: Easily book appointments with doctors through the application.
-- **User-Friendly Interface**: Designed with accessibility in mind, making it easy for all users to navigate and use.
-- **Data Privacy**: The application ensures the privacy and security of user data.
+1. **Heart Health Monitoring**: Monitor your heart health data such as heart rate, blood pressure, and other relevant metrics.
+
+2. **Voice-to-Text Input**: The application uses voice recognition technology for ease of use, enabling verbally impaired users to interact with the app through voice commands.
+
+3. **Doctor Appointment Booking**: Easily book appointments with doctors directly through the application, making access to healthcare more convenient.
+
+4. **Chatbot Facility**: A chatbot assists verbally impaired individuals with navigation throughout the app, providing support through sign language videos and specialized tips.
+
+5. **Accessibility for Visually Impaired**: Designed with features like audio cues and screen reader compatibility, CARDIOsetu offers accessible navigation for visually impaired users.
+
+6. **Heart Report Analysis**: Analyze heart health reports with the application, providing insights for better health management.
+
+7. **User-Friendly Interface**: The application is designed with simplicity and ease of use in mind, allowing all users to navigate and use the app seamlessly.
+
+8. **Data Privacy**: CARDIOsetu ensures the privacy and security of user data, keeping your information safe and protected.
 
 ## Installation
 
@@ -39,24 +49,31 @@ To install and use the CARDIOsetu application, follow these steps:
 
 ## Usage
 
-- Monitor your heart health by entering your health data or using connected health devices.
-- Book appointments with doctors directly through the application.
-- Use voice-to-text input for easy navigation and interaction.
+1. **Heart Report Analysis**: CARDIOsetu helps users analyze their heart health reports, providing valuable insights for better health management.
 
-  ## API Integration
+2. **Appointment Booking**: The application makes it easy to book appointments with doctors, enabling convenient and efficient access to healthcare.
 
-- **Voice-to-Text:** Integrates with speech recognition APIs for voice input.
-- **Health Data**: Connects with health data sources to track and monitor heart health.
+3. **Chatbot Facility**: For verbally impaired individuals, a chatbot is available to assist with navigation through the application. This feature includes sign language videos and special tips for accessibility.
 
-  ## Contributing
-    Contributions to CARDIOsetu are welcome! If you'd like to contribute, please follow these guidelines:
+4. **Accessibility for Visually Impaired**: CARDIOsetu provides features that aid visually impaired users, including audio cues and other accessibility options for smooth navigation of the app.
 
--Fork the repository.
--Create a new branch with your feature/fix.
--Make your changes and commit them.
--Submit a pull request.
+## API Integration
+
+1. **Voice-to-Text:** Integrates with speech recognition APIs for voice input.
+2. **Health Data**: Connects with health data sources to track and monitor heart health.
+
+## Contributing
+- Contributions to CARDIOsetu are welcome! If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch with your feature/fix.
+3. Make your changes and commit them.
+4. Submit a pull request.
 
 ## License 
 - CARDIOsetu is licensed under the MIT License. Please refer to the license file for more details.
 
--Thank you for using CARDIOsetu! If you have any questions or feedback, feel free to open an issue or contact .
+## Contact
+
+**Thank you for viewing this project! If you have any questions or feedback, feel free to open an issue.
+**
