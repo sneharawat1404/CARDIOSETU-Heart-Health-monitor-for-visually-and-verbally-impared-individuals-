@@ -2,19 +2,17 @@ body {
   background-image: url('Screenshot 2024-04-19 203602.png');
 }
 
-
-
 .container{
   width: 500px;
   height: 70px;
   border-radius: 20px;
-  box-shadow: 2px 3px 5px lightblue;
+  box-shadow: 2px 3px 5px grey;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-wrap:wrap;
   align-items: center;
-  background-color: lightblue;
+  background-color: grey;
   margin-top: 20px;
 }
 .logo{
@@ -23,15 +21,15 @@ body {
   flex-grow: 7;
 }
 .main{
-  color: blue;
+  color: black;
   font-weight: bold;
   /* text-transform: uppercase; */
   padding: 5px;
-  text-shadow: 2px 3px 5px lightblue;
+  text-shadow: 2px 3px 5px blue;
   letter-spacing: 2px;
 }
 .sub{
-  color: blue;
+  color: black;
   font-weight: bold;
   margin-top: -20px;
   font-size: 10px;
@@ -53,7 +51,7 @@ flex-wrap:wrap;
 li a{
   text-decoration: none;
   margin-right: 30px;
-  color: blue;
+  color: black;
   /* text-transform: none; */
   font-weight: bold;
 }
@@ -94,7 +92,7 @@ li a{
 .butt{
   width: 250px;
   height: 50px;
-  background-color: lightblue;
+  background-color: white;
   border:2px solid rgb(141, 141, 148);
   color: darkblue;
   text-transform: uppercase;
@@ -102,5 +100,5 @@ li a{
   border-radius: 20px;
 }
 .butt:hover{
-  background-color:rgba(28, 49, 41, 0.767); ;
+  background-color:rgga(28, 49, 41, 0.767); ;
 }
