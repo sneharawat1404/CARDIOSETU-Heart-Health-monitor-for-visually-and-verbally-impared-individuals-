@@ -8,34 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="home.css">
+    
 
     <title>HEARTIFY (CARDIOsetu)</title>
 
     <style>
         /* Chatbot container */
         #chatbot {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            width: 350px; /* Increase the width */
-            height: 500px; /* Increase the height */
-            background-color: #f1f1f1;
-            border-radius: 15px; /* Rounded corners */
-            padding: 15px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-            display: none; /* Initially hidden */
-            overflow-y: auto; /* Scrollable chat window */
-        }
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 350px; /* Chatbot window width */
+    height: 300px; /* Chatbot window height */
+    background-color: lightskyblue; /* Light grey background color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+    overflow-y: auto; /* Scrollable chat window */
+}
+
 
         /* Chatbot header */
         #chatbotHeader {
             font-weight: bold;
             text-align: center;
             margin-bottom: 10px;
-            color: #333;
+            color: darkblue;
         }
 
         /* Chatbot button */
@@ -43,8 +45,8 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #007bff;
-            color: white;
+            background-color: white;
+            color: black;
             padding: 15px;
             border-radius: 50%;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -62,10 +64,10 @@
             </div>
             <div class="links">
                 <ul class="sec1">
-                    <li><a href="info.html">About us</a></li>
-                    <li><a href="info.html">Patient</a></li>
-                    <li><a href="info.html">Staff</a></li>
-                    <li><a href="info.html">Admin</a></li>
+                    <li><a href="homefiles/Info_Page/Info_Page.html">About us</a></li>
+                    <li><a href="homefiles/Info_Page/Info_Page.html">Patient</a></li>
+                    <li><a href="homefiles/Info_Page/Info_Page.html">Staff</a></li>
+                    <li><a href="homefiles/Info_Page/Info_Page.html">Admin</a></li>
                 </ul>
             </div>
         </div>
@@ -81,12 +83,12 @@
             </div>
             <div>
                 <button class="butt">
-                    <a href="info.html">Already a user</a>
+                    <a href="homefiles/Info_Page/Info_Page.html">Already a user</a>
                 </button>
             </div>
             <div>
                 <button class="butt">
-                    <a href="info.html">New user</a>
+                    <a href="homefiles/Info_Page/Info_Page.html">New user</a>
                 </button>
             </div>
         </div>
@@ -108,7 +110,7 @@
                 <input type="text" placeholder="Type your question..." id="chatInput" onkeypress="checkKeyPress(event)">
                 <button onclick="sendMessage()">Send</button>
                 <button onclick="makeCall()">Call Us</button>
-                <a href="video_guide.html" target="_blank">Video Guide</a>
+                <a href="video_guide.html" target="_blank">For Video Guide click</a>
             </div>
         </div>
     </div>
@@ -148,6 +150,7 @@
             var phoneNumber = "9968219765";
             window.open('tel:' + phoneNumber);
         }
+        
     </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
