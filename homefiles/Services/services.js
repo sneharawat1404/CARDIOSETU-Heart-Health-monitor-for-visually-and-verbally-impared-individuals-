@@ -14,7 +14,7 @@ function speakWelcomeMessage() {
             window.location.href = "#";
         }
         else if(result.includes("Heart Report Analysis")) {
-            window.location.href = "report.html";
+            window.location.href = ".../Heart_Report_Data/Heart_Report_Data.html";
         }
         else if(result.includes("Heart Hospital Nearby me")) {
             window.location.href = "#";
