@@ -13,7 +13,7 @@ https://github.com/sneharawat1404/CARDIOsetu-Heart-health-monitor-/assets/142423
 
 
 
-CARDIOsetu is a web application designed to monitor individual heart health and assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking. The application uses API integration to enable voice-to-text input for accessibility, making it easier for individuals with disabilities to interact with the application.
+CARDIOsetu is a web application designed to monitor individual heart health and **assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking, medicine & treatment independently**. The application uses **API integration** to enable voice-to-text input for accessibility, making it easier for individuals with disabilities to interact with the application.
 
 ## Table of Contents
 
