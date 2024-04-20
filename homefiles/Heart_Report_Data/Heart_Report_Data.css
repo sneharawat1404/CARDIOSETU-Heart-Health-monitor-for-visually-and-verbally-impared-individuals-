@@ -194,3 +194,21 @@ form .btn .btn-layer {
     left: -100%;
    
 }
+.submit-button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; /* Margin from the top */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow effect */
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
