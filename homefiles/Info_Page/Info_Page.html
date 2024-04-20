@@ -291,7 +291,7 @@
     document.getElementById("loginButton").addEventListener("click", function() {
          console.log("Button clicked!");
     // Redirect to another page
-         window.location.href = "services.html"; // Replace "your_page.html" with the URL of the page you want to redirect to
+         window.location.href = "../Services/services.html"; // Replace "your_page.html" with the URL of the page you want to redirect to
    });
     </script>
     <div class="wrapper">
@@ -308,7 +308,7 @@
                 <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-                <form action="services.html" class="login">
+                <form action="../Services/services.html" class="login">
                     <div class="field" style="position: relative;">
                         <input type="email" id="emailInput" placeholder="Email id" required>
                         <button id="voiceInputBtnEmail" onclick="startVoiceRecognitionEmail()">Speak</button>
@@ -324,9 +324,9 @@
                             <input type="submit" value="login">
                         </a>
                     </div>
-                    <div class="signup-link">Not a member? <a href="homefiles/Services/services.html">Signup now</a></div>
+                    <div class="signup-link">Not a member? <a href="../Services/services.html">Signup now</a></div>
                 </form>
-                <form action="homefiles/Services/services.html" class="signup">
+                <form action="../Services/services.html" class="signup">
                     <div class="field" style="position: relative;">
                         <input type="email" id="Signup_emailInput" placeholder="Email id" required>
                         <button id="voiceInputBtnsignup_Email" onclick="startVoiceRecognitionSignup_Email()">Speak</button>
@@ -344,7 +344,7 @@
                     </div> 
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                             <a href="homefiles/Services/services.html">
+                             <a href="../Services/services.html">
                                  <input type="submit" value="signup">
                             </a>
                          </div>
