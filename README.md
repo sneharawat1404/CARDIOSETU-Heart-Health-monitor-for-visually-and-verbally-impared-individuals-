@@ -45,7 +45,7 @@ To install and use the CARDIOsetu application, follow these steps:
     npm install -g nativefier
 3. **Create the CARDIOsetu App**:
    ```bash
-   nativefier 'yourwebsite.com'
+   nativefier 'https://sneharawat1404.github.io/CARDIOsetu-Heart-health-monitor-/'
 
 ## Usage
 
