@@ -1,5 +1,10 @@
 # CARDIOsetu
 
+
+
+Uploading WhatsApp Video 2024-04-21 at 12.59.38 AM.mp4…
+
+
 CARDIOsetu is a web application designed to monitor individual heart health and assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking. The application uses API integration to enable voice-to-text input for accessibility, making it easier for individuals with disabilities to interact with the application.
 
 ## Table of Contents
@@ -13,15 +18,15 @@ CARDIOsetu is a web application designed to monitor individual heart health and 
 
 ## Features
 
-1. **Heart Health Monitoring**: Monitor your heart health data such as heart rate, blood pressure, and other relevant metrics.
+1. **Heart Health Monitoring**: Monitor your heart health such as heart report, Appointmnet booking, Medicine etc.
 
-2. **Voice-to-Text Input**: The application uses voice recognition technology for ease of use, enabling verbally impaired users to interact with the app through voice commands.
+2. **Accessibility for Visually Impaired**: Designed with features like audio cues and screen reader compatibility, CARDIOsetu offers accessible navigation for visually impaired users.
 
-3. **Doctor Appointment Booking**: Easily book appointments with doctors directly through the application, making access to healthcare more convenient.
+3. **Chatbot Facility**: A chatbot assists verbally impaired individuals with navigation throughout the app, providing support through sign language videos and specialized tips..
 
-4. **Chatbot Facility**: A chatbot assists verbally impaired individuals with navigation throughout the app, providing support through sign language videos and specialized tips.
+4. **Voice-to-Text Input**: The application uses voice recognition technology for ease of use, enabling verbally impaired users to interact with the app through voice commands.
 
-5. **Accessibility for Visually Impaired**: Designed with features like audio cues and screen reader compatibility, CARDIOsetu offers accessible navigation for visually impaired users.
+5. **Accessibility for Verbally Impaired**: Designed with features like sign language video cues to navigate the app.
 
 6. **Heart Report Analysis**: Analyze heart health reports with the application, providing insights for better health management.
 
@@ -59,7 +64,7 @@ To install and use the CARDIOsetu application, follow these steps in the termina
 ## API Integration
 
 1. **Voice-to-Text:** Integrates with speech recognition APIs for voice input.
-2. **Health Data**: Connects with health data sources to track and monitor heart health.
+
 
 ## Contributing
 - Contributions to CARDIOsetu are welcome! If you'd like to contribute, please follow these guidelines:
