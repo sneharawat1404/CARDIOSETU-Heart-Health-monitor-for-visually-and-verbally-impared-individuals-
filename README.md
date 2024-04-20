@@ -6,7 +6,7 @@
 
 
 
-Uploading WhatsApp Video 2024-04-21 at 12.59.38 AM.mp4…
+WebApp_gif.mp4
 
 
 CARDIOsetu is a web application designed to monitor individual heart health and assist visually and verbally impaired individuals with heart health analysis and doctor appointment booking. The application uses API integration to enable voice-to-text input for accessibility, making it easier for individuals with disabilities to interact with the application.
