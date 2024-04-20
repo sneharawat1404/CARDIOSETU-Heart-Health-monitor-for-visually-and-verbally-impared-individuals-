@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +13,6 @@
 <body>
     <script>
 
-        
         function startVoiceRecognitionEmail() {   ///EMAIL
             const emailInput = document.getElementById("emailInput");
             const voiceInputBtnEmail = document.getElementById("voiceInputBtnEmail");
@@ -309,6 +310,7 @@
             </div>
             <div class="form-inner">
                 <form action="../Services/services.html" class="login">
+    
                     <div class="field" style="position: relative;">
                         <input type="email" id="emailInput" placeholder="Email id" required>
                         <button id="voiceInputBtnEmail" onclick="startVoiceRecognitionEmail()">Speak</button>
@@ -317,16 +319,18 @@
                         <input type="password" id="passwordInput" placeholder="Password" required>
                         <button id="voiceInputBtnPassword" onclick="startVoiceRecognitionPassword()">Speak</button>
                         <button id="listenPasswordBtn" onclick="listenPassword()">Listen Password</button>
-                    </div>   
+                    </div> 
+                    
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                        <a href="services.html">
-                            <input type="submit" value="login">
+                        <a href="../Services/services.html">
+                            <input type="submit" value="Login">
                         </a>
                     </div>
+                   
                     <div class="signup-link">Not a member? <a href="../Services/services.html">Signup now</a></div>
                 </form>
-                <form action="../Services/services.html" class="signup">
+                <form action="Services\services.html" class="signup">
                     <div class="field" style="position: relative;">
                         <input type="email" id="Signup_emailInput" placeholder="Email id" required>
                         <button id="voiceInputBtnsignup_Email" onclick="startVoiceRecognitionSignup_Email()">Speak</button>
@@ -344,7 +348,7 @@
                     </div> 
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                             <a href="../Services/services.html">
+                             <a href="Services\services.html">
                                  <input type="submit" value="signup">
                             </a>
                          </div>
@@ -355,3 +359,4 @@
     <script src="info.js"></script>
 </body>
 </html>
+
