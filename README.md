@@ -9,7 +9,6 @@ CARDIOsetu is a web application designed to monitor individual heart health and 
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -32,7 +31,7 @@ CARDIOsetu is a web application designed to monitor individual heart health and 
 
 ## Installation
 
-To install and use the CARDIOsetu application, follow these steps:
+To install and use the CARDIOsetu application, follow these steps in the terminal:
 
 1. **Clone the repository**:
    ```bash
@@ -45,7 +44,7 @@ To install and use the CARDIOsetu application, follow these steps:
     npm install -g nativefier
 3. **Create the CARDIOsetu App**:
    ```bash
-   nativefier 'https://sneharawat1404.github.io/CARDIOsetu-Heart-health-monitor-/'
+   nativefier 'https://sneharawat1404.github.io/CARDIOsetu-Heart-health-monitor-/' (here you can also put your cloned deploy github page
 
 ## Usage
 
@@ -70,8 +69,6 @@ To install and use the CARDIOsetu application, follow these steps:
 3. Make your changes and commit them.
 4. Submit a pull request.
 
-## License 
-- CARDIOsetu is licensed under the MIT License. Please refer to the license file for more details.
 
 ## Contact
 
